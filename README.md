@@ -15,8 +15,9 @@ Phylogeny.fr ha sido diseñado para proporcionar una plataforma de alto rendimie
  
 Menciona 5 tipos de análsis que se pueden realizar en el portal de acuerdo a la documentación
 
+Segun la documentacion en este portal se pueden realizar los siguientes analisis: Alineación múltiple, alineación múltiple mediante información estructural, filogenia con máxima verosimilitud, estimaciones de soportes de clados y representación del árbol filogenetico.
 
-Dos filogenias: 
+Dos filogenias: gen SRY 
 
 1.- Una con ProbCons, GBlocks, MrBayes, y TreeDyn
 
@@ -28,12 +29,16 @@ Otra con ClustalW, "Remove positions with gaps", TNT, y TreeDyn
 
 ¿A qué se refiere el paso de *Alignment curation* y para qué sirve?
 
-![filo 1 sin curar](https://github.com/Peepcross/TOO-COOL-4-THIS-LAB/blob/master/filo%201%20sin%20curar.png)
-
-![filo 2 sin curar](https://github.com/Peepcross/TOO-COOL-4-THIS-LAB/blob/master/filo%202%20sin%20curar.png)
+ El alignment curation corresponde a la eliminacion de todas las partes que no han sido alineadas logaritmicamente, lo que podria traducirse en que las secuencias que quedan en las afueras y que no se relacionan con las demas, luego no forman arte del arbol filogenetico.
 
 ¿Cuál es la diferencia entre BioNJ y Neighbor? (Pista: revisa la documentación)
 
+En que BioNj tiene una capacidad muchas mas taxas que Neighbor. <5000 vs <500 respectivamente.
+
 Corre de nuevo las filogenias pero esta vez sin *Alignment curation*. ¿Cuál es el efecto en las filogenias?
+
+![filo 1 sin curar](https://github.com/Peepcross/TOO-COOL-4-THIS-LAB/blob/master/filo%201%20sin%20curar.png)
+
+![filo 2 sin curar](https://github.com/Peepcross/TOO-COOL-4-THIS-LAB/blob/master/filo%202%20sin%20curar.png)
 
 Describe las diferencias entre las filogenias que has estimado: cantidad de grupos monofiléticos, relaciones que potencialmente cambiaron, etc.
