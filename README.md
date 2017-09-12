@@ -37,8 +37,15 @@ En que BioNj tiene una capacidad muchas mas taxas que Neighbor. <5000 vs <500 re
 
 Corre de nuevo las filogenias pero esta vez sin *Alignment curation*. ¿Cuál es el efecto en las filogenias?
 
+ProbCons, MrBayes, y TreeDyn
 ![filo 1 sin curar](https://github.com/Peepcross/TOO-COOL-4-THIS-LAB/blob/master/filo%201%20sin%20curar.png)
 
+ClustalW, TNT, y TreeDyn
 ![filo 2 sin curar](https://github.com/Peepcross/TOO-COOL-4-THIS-LAB/blob/master/filo%202%20sin%20curar.png)
 
+Al no estar curadas muchas especies se repiten y el formato se ve mucho mas desordenado en comparacion a 
+las que si estan curadas.
+
 Describe las diferencias entre las filogenias que has estimado: cantidad de grupos monofiléticos, relaciones que potencialmente cambiaron, etc.
+
+El cambio mas notorio fue en los grupos monofileticos y las distancias evolutivas, que aumentaron al no estar curados. 
